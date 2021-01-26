@@ -7,7 +7,7 @@ Swift Package for https://github.com/joreilly/BikeShare
 
 ```
 import SwiftUI
-import common
+import BikeShareKit
 
 struct ContentView: View {
     let repository = CityBikesRepository()
