@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "BikeShare",
+    name: "BikeShareKit",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "BikeShare",
-            targets: ["BikeShare"]
+            name: "BikeShareKit",
+            targets: ["BikeShareKit"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "BikeShare",
-            path: "./BikeShare.xcframework"
+            name: "BikeShareKit",
+            path: "./BikeShareKit.xcframework"
         ),
     ]
 )

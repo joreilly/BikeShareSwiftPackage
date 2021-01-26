@@ -3,11 +3,11 @@
 Swift Package for https://github.com/joreilly/BikeShare
 
 
-### Example code
+### Example SwiftUI code
 
-```
+```swift
 import SwiftUI
-import common
+import BikeShareKit
 
 struct ContentView: View {
     let repository = CityBikesRepository()
