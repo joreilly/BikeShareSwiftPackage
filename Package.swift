@@ -5,7 +5,7 @@ let package = Package(
     name: "BikeShareKit",
     platforms: [
         .iOS(.v13),
-        .macOS(.v11)
+.macOS(.v10)
     ],
     products: [
         .library(

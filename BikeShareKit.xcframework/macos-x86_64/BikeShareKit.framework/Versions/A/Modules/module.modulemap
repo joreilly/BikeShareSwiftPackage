@@ -1,0 +1,6 @@
+framework module BikeShareKit {
+    umbrella header "BikeShareKit.h"
+
+    export *
+    module * { export * }
+}
