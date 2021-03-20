@@ -4,7 +4,8 @@ import PackageDescription
 let package = Package(
     name: "BikeShareKit",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
+.macOS(.v10.0)
     ],
     products: [
         .library(
