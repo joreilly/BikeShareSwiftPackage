@@ -27,3 +27,23 @@ struct ContentView: View {
     }
 }
 ```
+
+Note that it's also necessary to initialise Koin (like following for example)
+
+```
+import SwiftUI
+import BikeShareKit
+
+@main
+struct YourApp: App {
+    init() {
+        KoinKt.doInitKoin()
+    }
+    
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+```
