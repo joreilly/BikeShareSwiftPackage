@@ -30,7 +30,7 @@ struct ContentView: View {
 
 Note that it's also necessary to initialise Koin (like following for example)
 
-```
+```swift
 import SwiftUI
 import BikeShareKit
 
