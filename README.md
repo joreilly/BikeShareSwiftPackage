@@ -1,6 +1,6 @@
 # BikeShareSwiftPackage
 
-Swift Package for https://github.com/joreilly/BikeShare
+Swift Package for https://github.com/joreilly/BikeShare.  Note you can get full list of bike networks from https://api.citybik.es/v2/networks.
 
 
 ### Example SwiftUI code
