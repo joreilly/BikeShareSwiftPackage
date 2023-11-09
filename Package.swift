@@ -1,10 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "BikeShareKit",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
+.macOS(.v12)
     ],
     products: [
         .library(
