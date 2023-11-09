@@ -779,7 +779,7 @@ __attribute__((swift_name("Ktor_client_coreHttpClientEngineConfig")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property BOOL pipelining __attribute__((swift_name("pipelining")));
 @property CommonKtor_client_coreProxyConfig * _Nullable proxy __attribute__((swift_name("proxy")));
-@property int32_t threadsCount __attribute__((swift_name("threadsCount")));
+@property int32_t threadsCount __attribute__((swift_name("threadsCount"))) __attribute__((deprecated("The [threadsCount] property is deprecated. The [Dispatchers.IO] is used by default.")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2624,6 +2624,7 @@ __attribute__((swift_name("Ktor_utilsWeekDay")))
 @property (class, readonly) CommonKtor_utilsWeekDay *saturday __attribute__((swift_name("saturday")));
 @property (class, readonly) CommonKtor_utilsWeekDay *sunday __attribute__((swift_name("sunday")));
 + (CommonKotlinArray<CommonKtor_utilsWeekDay *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<CommonKtor_utilsWeekDay *> *entries __attribute__((swift_name("entries")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
 @end
 
@@ -2647,6 +2648,7 @@ __attribute__((swift_name("Ktor_utilsMonth")))
 @property (class, readonly) CommonKtor_utilsMonth *november __attribute__((swift_name("november")));
 @property (class, readonly) CommonKtor_utilsMonth *december __attribute__((swift_name("december")));
 + (CommonKotlinArray<CommonKtor_utilsMonth *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<CommonKtor_utilsMonth *> *entries __attribute__((swift_name("entries")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
 @end
 
