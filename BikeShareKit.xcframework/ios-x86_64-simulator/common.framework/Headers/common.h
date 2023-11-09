@@ -343,6 +343,7 @@ __attribute__((swift_name("CityBikesRepository")))
 */
 - (void)fetchBikeShareInfoNetwork:(NSString *)network completionHandler:(void (^)(NSArray<CommonStation *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchBikeShareInfo(network:completionHandler:)")));
 - (id<CommonKotlinx_coroutines_coreFlow>)pollNetworkUpdatesNetwork:(NSString *)network __attribute__((swift_name("pollNetworkUpdates(network:)")));
+- (void)test __attribute__((swift_name("test()")));
 @property (readonly) id<CommonKotlinx_coroutines_coreStateFlow> groupedNetworkList __attribute__((swift_name("groupedNetworkList")));
 @end
 
